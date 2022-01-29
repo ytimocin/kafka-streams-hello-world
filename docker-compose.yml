@@ -31,7 +31,7 @@ services:
       KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR: 1
 
   kafka-create-topics:
-    image: confluentinc/cp-kafka:6.0.0
+    image: confluentinc/cp-kafka:7.0.0
     depends_on:
       - kafka
     hostname: kafka-create-topics
