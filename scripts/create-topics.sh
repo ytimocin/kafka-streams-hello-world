@@ -2,7 +2,7 @@ echo "Waiting for Kafka to come online..."
 
 cub kafka-ready -b kafka:9092 1 20
 
-# create the users topic
+# create the hello-world topic
 kafka-topics \
   --bootstrap-server kafka:9092 \
   --topic hello-world \
